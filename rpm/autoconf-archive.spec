@@ -14,7 +14,7 @@ GNU Autoconf that have been contributed as free software by friendly
 supporters of the cause from all over the Internet.
 
 %prep
-%setup -q
+%setup -q -n %{name}-%{version}/autoconf-archive
 
 %build
 %configure
