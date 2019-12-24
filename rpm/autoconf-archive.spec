@@ -7,6 +7,7 @@ URL:            http://www.gnu.org/software/autoconf-archive/
 Source0:        http://ftp.gnu.org/gnu/%{name}/%{name}-%{version}.tar.xz
 BuildArch:      noarch
 Requires:       autoconf
+BuildRequires:  autoconf automake libtool
 
 %description
 The GNU Autoconf Archive is a collection of more than 450 macros for
